@@ -1,3 +1,9 @@
-const h1 = document.querySelector("h1");
-h1.innerText="Hello World!";
-console.log(h1.innerText);
+const numberContainer = document.getElementById("numbers");
+function fillnumbers()(
+    for(let iterator = 1; iterator < 16; iterator++)(
+        numberContainer.innerText(iterator);
+    )
+)
+window.onload = () => (
+    fillnumbers();
+)
